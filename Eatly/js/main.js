@@ -44,5 +44,54 @@
             body.classList.add('body--burger-opened');
         }
     })
+
+    // Слайдер-блюда
+    const swiper = new Swiper(".dishes__swiper", {
+        loop: true,
+        spaceBetween: 5,
+        slidesPerView: 1,
+        breakpoints: {
+            351: {
+                slidesPerView: 1.5,
+                spaceBetween: 5
+            },
+            475: {
+                slidesPerView: 2,
+                spaceBetween: 10
+            },
+            651: {
+                slidesPerView: 2.5,
+                spaceBetween: 10
+            },
+            // when window width is >= 320px
+            751: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            // when window width is >= 480px
+            901: {
+                slidesPerView: 4,
+                spaceBetween: 30
+            },
+            // when window width is >= 640px
+            1051: {
+                slidesPerView: 5,
+                spaceBetween: 30
+            }
+        },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".dishes__slider-pagination",
+            clickable: true,
+            bulletActiveClass: 'dish__bullet--active'
+        },
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        // },
+    });
     
 })();
