@@ -46,7 +46,7 @@
     })
 
     // Слайдер-блюда
-    const swiper = new Swiper(".dishes__swiper", {
+    const dishesSwiper = new Swiper(".dishes__swiper", {
         loop: true,
         spaceBetween: 5,
         slidesPerView: 1,
@@ -92,6 +92,17 @@
         //   nextEl: ".swiper-button-next",
         //   prevEl: ".swiper-button-prev",
         // },
+    });
+
+
+    // ========Testimonials-slider========
+    testimonialsSwiper = new Swiper(".testimonials__swiper", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        
+        scrollbar: {
+            el: '.testimonials__swiper-scrollbar',
+        },
     });
     
 })();

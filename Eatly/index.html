@@ -329,8 +329,8 @@
                     <div class="dishes__inner">
                         <h2 class="dishes__title">Our Top <span>Dishes</span></h2>
                         <div class="dishes__swiper swiper">
-                            <div class="swiper-wrapper">
-                                <div class="slide swiper-slide">
+                            <div class="dishes__swiper-wrapper swiper-wrapper">
+                                <div class="dishes__slide swiper-slide">
                                     <a href="#" class="foodCard">
                                         <div class="foodCard__inner">
                                             <div class="foodCard__img">
@@ -367,7 +367,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="slide swiper-slide">
+                                <div class="dishes__slide swiper-slide">
                                     <a href="#" class="foodCard">
                                         <div class="foodCard__inner">
                                             <div class="foodCard__img">
@@ -404,7 +404,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="slide swiper-slide">
+                                <div class="dishes__slide swiper-slide">
                                     <a href="#" class="foodCard">
                                         <div class="foodCard__inner">
                                             <div class="foodCard__img">
@@ -441,7 +441,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="slide swiper-slide">
+                                <div class="dishes__slide swiper-slide">
                                     <a href="#" class="foodCard">
                                         <div class="foodCard__inner">
                                             <div class="foodCard__img">
@@ -478,7 +478,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="slide swiper-slide">
+                                <div class="dishes__slide swiper-slide">
                                     <a href="#" class="foodCard">
                                         <div class="foodCard__inner">
                                             <div class="foodCard__img">
@@ -515,7 +515,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="slide swiper-slide">
+                                <div class="dishes__slide swiper-slide">
                                     <a href="#" class="foodCard">
                                         <div class="foodCard__inner">
                                             <div class="foodCard__img">
@@ -552,7 +552,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="slide swiper-slide">
+                                <div class="dishes__slide swiper-slide">
                                     <a href="#" class="foodCard">
                                         <div class="foodCard__inner">
                                             <div class="foodCard__img">
@@ -589,7 +589,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="slide swiper-slide">
+                                <div class="dishes__slide swiper-slide">
                                     <a href="#" class="foodCard">
                                         <div class="foodCard__inner">
                                             <div class="foodCard__img">
@@ -635,6 +635,636 @@
                             <span>View All</span>
                             <img src="./img/icons/arrow-right2.svg" alt="">
                         </a>
+                    </div>
+                </div>
+            </section>
+            <section class="purchases">
+                <div class="container">
+                    <div class="purchases__inner">
+                        <div class="purchases__content">
+                            <h2 class="purchases__title">
+                                Control <span>Purchases</span> Via Dashboard
+                            </h2>
+                            <ul class="purchases__cards-list">
+                                <li class="purchases__cards-item order-card">
+                                    <div class="purchases__order-img order-card__img">
+                                        <img src="./img/content/order-dish.png" alt="">
+                                    </div>
+                                    <div class="purchases__order-content order-card__content">
+                                        <h3 class="purchases__order-title order-card__title">Chicken Hell</h3>
+                                        <p class="purchases__order-status order-card__status">On The Way</p>
+                                        <p class="purchases__order-time order-card__time">3:09 PM</p>
+                                    </div>
+                                </li>
+                                <li class="purchases__cards-item order-card">
+                                    <div class="purchases__order-img order-card__img">
+                                        <img src="./img/content/order-dish.png" alt="">
+                                    </div>
+                                    <div class="purchases__order-content order-card__content">
+                                        <h3 class="purchases__order-title order-card__title">Swe Dish</h3>
+                                        <p class="purchases__order-status order-card__status">Delivered</p>
+                                        <p class="purchases__order-time order-card__time">Yesterday</p>
+                                    </div>
+                                </li>
+                                <li class="purchases__cards-item order-card">
+                                    <div class="purchases__order-img order-card__img">
+                                        <img src="./img/content/order-dish.png" alt="">
+                                    </div>
+                                    <div class="purchases__order-content order-card__content">
+                                        <h3 class="purchases__order-title order-card__title">Fish Hell Veg</h3>
+                                        <p class="purchases__order-status order-card__status">Cancelled</p>
+                                        <p class="purchases__order-time order-card__time">Yesterday</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="purchases__dashboard">
+                            <div class="purchases__dashboard-top">
+                                <h3 class="purchases__dashboard-title">Purchases</h3>
+                                <select class="dropmenu">
+                                    <option value="This Month">This Month</option>
+                                    <option value="This Week">This Week</option>
+                                    <option value="This Day">This Day</option>
+                                </select>
+                            </div>
+                            <ul class="purchases__dashboard-cards-list">
+                                <li class="purchases__dashboard-item purchases__dashboard-item--purple">
+                                    <div class="purchases__dashboard-item-content">
+                                        <div class="purchases__dashboard-item-img">
+                                            <img src="./img/icons/wallet1.svg" alt="">
+                                        </div>
+                                        <div class="purchase__dashboard-item-naming">
+                                            <h3 class="purchases__dashboard-cards-title">Expense</h3>
+                                            <span class="purchases__dashboard-cards-subtitle">Increased By 10%</span>
+                                        </div>
+                                        <div class="purchases__dashboard-item-price">
+                                            $409.00
+                                        </div>
+                                    </div>
+                                    <div class="purchases__dashboard-item-bar"></div>
+                                </li>
+                                <li class="purchases__dashboard-item purchases__dashboard-item--orange">
+                                    <div class="purchases__dashboard-item-content">
+                                        <div class="purchases__dashboard-item-img">
+                                            <img src="./img/icons/wallet1.svg" alt="">
+                                        </div>
+                                        <div class="purchase__dashboard-item-naming">
+                                            <h3 class="purchases__dashboard-cards-title">Vocher Usage</h3>
+                                            <span class="purchases__dashboard-cards-subtitle">Increased By 5%</span>
+                                        </div>
+                                        <div class="purchases__dashboard-item-price">
+                                            $45.78
+                                        </div>
+                                    </div>
+                                    <div class="purchases__dashboard-item-bar"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonials">
+                <div class="container">
+                    <div class="testimonials__inner">
+                        <h2 class="testimonials__title"><span>Customer</span> Say</h2>
+                        <div class="testimonials__swiper swiper">
+                            <div class="testimonials__swiper-wrapper swiper-wrapper">
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__slide-user">
+                                        <div class="testimonials__slide-photo">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="testimonials__slide-user-info">
+                                            <p class="testimonials__slide-user-name">Alexander R.</p>
+                                            <p class="testimonials__slide-user-date">01 Year With Us</p>
+                                        </div>
+                                        <div class="testimonials__slide-quote-img">
+                                            <img src="./img/icons/quotes1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <blockquote class="testimonials__slide-quote">“ Online invoice payment helps
+                                        companies save time, are faster and save maximum effort for the clients and save
+                                        maximum effort. Online invoice payment helps companies save time ”</blockquote>
+                                    <div class="testimonials__slide-rating">
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__slide-user">
+                                        <div class="testimonials__slide-photo">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="testimonials__slide-user-info">
+                                            <p class="testimonials__slide-user-name">Alexander R.</p>
+                                            <p class="testimonials__slide-user-date">01 Year With Us</p>
+                                        </div>
+                                        <div class="testimonials__slide-quote-img">
+                                            <img src="./img/icons/quotes1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <blockquote class="testimonials__slide-quote">“ Online invoice payment helps
+                                        companies save time, are faster and save maximum effort for the clients and save
+                                        maximum effort. Online invoice payment helps companies save time ”</blockquote>
+                                    <div class="testimonials__slide-rating">
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__slide-user">
+                                        <div class="testimonials__slide-photo">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="testimonials__slide-user-info">
+                                            <p class="testimonials__slide-user-name">Alexander R.</p>
+                                            <p class="testimonials__slide-user-date">01 Year With Us</p>
+                                        </div>
+                                        <div class="testimonials__slide-quote-img">
+                                            <img src="./img/icons/quotes1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <blockquote class="testimonials__slide-quote">“ Online invoice payment helps
+                                        companies save time, are faster and save maximum effort for the clients and save
+                                        maximum effort. Online invoice payment helps companies save time ”</blockquote>
+                                    <div class="testimonials__slide-rating">
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__slide-user">
+                                        <div class="testimonials__slide-photo">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="testimonials__slide-user-info">
+                                            <p class="testimonials__slide-user-name">Alexander R.</p>
+                                            <p class="testimonials__slide-user-date">01 Year With Us</p>
+                                        </div>
+                                        <div class="testimonials__slide-quote-img">
+                                            <img src="./img/icons/quotes1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <blockquote class="testimonials__slide-quote">“ Online invoice payment helps
+                                        companies save time, are faster and save maximum effort for the clients and save
+                                        maximum effort. Online invoice payment helps companies save time ”</blockquote>
+                                    <div class="testimonials__slide-rating">
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__slide-user">
+                                        <div class="testimonials__slide-photo">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="testimonials__slide-user-info">
+                                            <p class="testimonials__slide-user-name">Alexander R.</p>
+                                            <p class="testimonials__slide-user-date">01 Year With Us</p>
+                                        </div>
+                                        <div class="testimonials__slide-quote-img">
+                                            <img src="./img/icons/quotes1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <blockquote class="testimonials__slide-quote">“ Online invoice payment helps
+                                        companies save time, are faster and save maximum effort for the clients and save
+                                        maximum effort. Online invoice payment helps companies save time ”</blockquote>
+                                    <div class="testimonials__slide-rating">
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__slide-user">
+                                        <div class="testimonials__slide-photo">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="testimonials__slide-user-info">
+                                            <p class="testimonials__slide-user-name">Alexander R.</p>
+                                            <p class="testimonials__slide-user-date">01 Year With Us</p>
+                                        </div>
+                                        <div class="testimonials__slide-quote-img">
+                                            <img src="./img/icons/quotes1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <blockquote class="testimonials__slide-quote">“ Online invoice payment helps
+                                        companies save time, are faster and save maximum effort for the clients and save
+                                        maximum effort. Online invoice payment helps companies save time ”</blockquote>
+                                    <div class="testimonials__slide-rating">
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__slide-user">
+                                        <div class="testimonials__slide-photo">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="testimonials__slide-user-info">
+                                            <p class="testimonials__slide-user-name">Alexander R.</p>
+                                            <p class="testimonials__slide-user-date">01 Year With Us</p>
+                                        </div>
+                                        <div class="testimonials__slide-quote-img">
+                                            <img src="./img/icons/quotes1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <blockquote class="testimonials__slide-quote">“ Online invoice payment helps
+                                        companies save time, are faster and save maximum effort for the clients and save
+                                        maximum effort. Online invoice payment helps companies save time ”</blockquote>
+                                    <div class="testimonials__slide-rating">
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__slide-user">
+                                        <div class="testimonials__slide-photo">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="testimonials__slide-user-info">
+                                            <p class="testimonials__slide-user-name">Alexander R.</p>
+                                            <p class="testimonials__slide-user-date">01 Year With Us</p>
+                                        </div>
+                                        <div class="testimonials__slide-quote-img">
+                                            <img src="./img/icons/quotes1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <blockquote class="testimonials__slide-quote">“ Online invoice payment helps
+                                        companies save time, are faster and save maximum effort for the clients and save
+                                        maximum effort. Online invoice payment helps companies save time ”</blockquote>
+                                    <div class="testimonials__slide-rating">
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__slide-user">
+                                        <div class="testimonials__slide-photo">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="testimonials__slide-user-info">
+                                            <p class="testimonials__slide-user-name">Alexander R.</p>
+                                            <p class="testimonials__slide-user-date">01 Year With Us</p>
+                                        </div>
+                                        <div class="testimonials__slide-quote-img">
+                                            <img src="./img/icons/quotes1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <blockquote class="testimonials__slide-quote">“ Online invoice payment helps
+                                        companies save time, are faster and save maximum effort for the clients and save
+                                        maximum effort. Online invoice payment helps companies save time ”</blockquote>
+                                    <div class="testimonials__slide-rating">
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                        <svg width="23.000000" height="23.000000" viewBox="0 0 23 23" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs />
+                                            <path id="Path"
+                                                d="M11.95 0.29L15.23 7.26L22.56 8.38C22.75 8.41 22.91 8.55 22.97 8.74C23.03 8.93 22.98 9.14 22.84 9.28L17.54 14.71L18.79 22.38C18.82 22.57 18.74 22.77 18.59 22.89C18.43 23.01 18.23 23.03 18.06 22.93L11.5 19.31L4.93 22.93C4.76 23.03 4.56 23.01 4.4 22.89C4.25 22.78 4.17 22.58 4.2 22.38L5.46 14.71L0.15 9.28C0.01 9.14 -0.04 8.93 0.02 8.74C0.08 8.55 0.24 8.41 0.43 8.38L7.76 7.26L11.05 0.29C11.13 0.11 11.3 0 11.5 0C11.69 0 11.86 0.11 11.95 0.29Z"
+                                                fill="#F59E0B" fill-opacity="1.000000" fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonials__swiper-scrollbar swiper-scrollbar"></div>
+                            <!-- <div class="testimonials__swiper-pagination swiper-pagination"></div> -->
+                        </div>
                     </div>
                 </div>
             </section>
@@ -914,14 +1544,14 @@
                 </div>
             </div>
             <div class="modal__decor decor">
-                <div class="modal__order">
-                    <div class="modal__order-img">
+                <div class="modal__order order-card">
+                    <div class="modal__order-img order-card__img">
                         <img src="./img/content/order-dish.png" alt="">
                     </div>
-                    <div class="modal__order-content">
-                        <h3 class="modal__order-title">Chicken Hell</h3>
-                        <p class="modal__order-status">On The Way</p>
-                        <p class="modal__order-time">3:09 PM</p>
+                    <div class="modal__order-content order-card__content">
+                        <h3 class="modal__order-title order-card__title">Chicken Hell</h3>
+                        <p class="modal__order-status order-card__status">On The Way</p>
+                        <p class="modal__order-time order-card__time">3:09 PM</p>
                     </div>
                 </div>
                 <div class="modal__img">
