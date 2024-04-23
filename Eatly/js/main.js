@@ -87,22 +87,54 @@
             el: ".dishes__slider-pagination",
             clickable: true,
             bulletActiveClass: 'dish__bullet--active'
-        },
-        // navigation: {
-        //   nextEl: ".swiper-button-next",
-        //   prevEl: ".swiper-button-prev",
-        // },
+        }
     });
 
 
     // ========Testimonials-slider========
     testimonialsSwiper = new Swiper(".testimonials__swiper", {
-        slidesPerView: "auto",
+        loop: true,
+        slidesPerView: 1,
         spaceBetween: 30,
-        
+        autoHeight: false,
+        breakpoints: {
+            500: {
+                slidesPerView: 1.5,
+            },
+            651: {
+                slidesPerView: 2,
+            },
+            851: {
+                slidesPerView: 'auto'
+            }
+        },
         scrollbar: {
             el: '.testimonials__swiper-scrollbar',
         },
     });
-    
+
+    // =============FAQ-accordion===============
+    const accordion = document.querySelectorAll('.FAQ-accordion__list');
+    accordion.forEach((el) => {
+        el.addEventListener('click', (e) => {
+            e.preventDefault();
+            const target = e.target;
+            const accordionControl = target.closest('.FAQ-accordion__control');
+
+            if (accordionControl) {
+                const accordionItem = accordionControl.parentElement;
+                const accordionContent = accordionControl.nextElementSibling;
+                console.log(accordionItem);
+                console.log(accordionContent);
+                if (accordionItem.classList.contains('FAQ-accordion__item--opened')) {
+                    accordionItem.classList.remove('FAQ-accordion__item--opened');
+                    accordionContent.style.maxHeight = 0;
+                } else {
+                    accordionItem.classList.add('FAQ-accordion__item--opened');
+                    console.log(accordionControl);
+                    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+                }
+            }
+        })
+    })
 })();
