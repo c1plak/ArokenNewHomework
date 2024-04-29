@@ -1,0 +1,118 @@
+/* =============FAQ============= */
+.FAQ {
+    margin-bottom: 100px;
+}
+.FAQ__inner {
+    font-family: 'Poppins';
+    padding-bottom: 120px;
+    border-bottom: 1px solid var(--division-color);
+}
+.FAQ__title {
+    position: relative;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 90px;
+    max-width: 408px;
+    margin: 0 auto 90px
+}
+
+.FAQ__title::after {
+    position: absolute;
+    display: block;
+    content: '';
+    background: url(../img/decor/blowsFAQ.svg) no-repeat;
+    width: 45px;
+    height: 43px;
+    right: -11%;
+    top: -31%;
+}
+
+.FAQ__title span {
+    color: var(--accent-color);
+}
+
+.FAQ-accordion__list {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+.FAQ-accordion__item {
+    padding-bottom: 15.28px;
+    border-bottom: 1.06px solid rgb(173, 173, 173);
+    padding: 0 13px 15px;
+    margin-bottom: 28.75px;
+}
+.FAQ-accordion__item:last-child {
+    margin-bottom: 0;
+}
+.FAQ-accordion__control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.FAQ-accordion__control:hover .FAQ-accordion__item-img {
+    background: #ffffff;
+}
+
+
+.FAQ-accordion__item-img rect {
+    transition: var(--transition);
+}
+.FAQ-accordion__item--opened .FAQ-accordion__item-img {
+    transform: rotate(-90deg);
+}
+.FAQ-accordion__item--opened .FAQ-accordion__item-img rect:nth-child(1) {
+    width: 0;
+}
+.FAQ-accordion__control:hover .FAQ-accordion__item-img rect {
+    fill: var(--accent-color);
+}
+
+.FAQ-accordion__item-title {
+    color: rgb(50, 49, 66);
+    font-size: 23.42px;
+    font-weight: 600;
+    line-height: calc(59.24 / 23.42);
+}
+.FAQ-accordion__item-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--accent-color);
+    border: 1px solid var(--accent-color);
+
+    transition: var(--transition);
+}
+.FAQ-accordion__item-img svg {
+    transition: var(--transition);
+}
+
+.FAQ-accordion__item-content {
+    margin-left: -2px;
+    max-height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.FAQ-accordion__item--opened .FAQ-accordion__item-content {
+    margin-top: 20px;
+}
+
+.FAQ-accordion__item-content-inner {
+    margin-bottom: 27px;
+}
+
+.FAQ-accordion__item-content-inner p {
+    display: block;
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,104 @@
+/* =============Dishes============= */
+.dishes__inner {
+    padding-bottom: 120px;
+    border-bottom: 1px solid var(--division-color);
+    margin-bottom: 100px;
+}
+.dishes__title {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 76px;
+    text-align: center;
+}
+.dishes__title span {
+    color: var(--accent-color);
+}
+.dishes__swiper-wrapper .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+.dishes__slide {
+    display: flex;
+    justify-content: center;
+}
+.dishes__swiper-wrapper {
+    margin-bottom: 100px;
+}
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    transition-property: transform;
+    display: block;
+}
+.foodCard {
+    height: 100%;
+    max-width: 224px;
+    border: 1.44px solid #f4f4f6;
+    border-radius: 34.58px;
+    box-shadow: -14.15px 2.18px 8.09px 0px rgba(229, 229, 229, 0.7);
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 37px 23px 31px;
+}
+.foodCard__img {
+    max-width: 183px;
+}
+.foodCard__img img {
+    width: 100%;
+    max-height: 169px;
+}
+.foodCard__content {
+    margin-bottom: 11px;
+    overflow: hidden;
+}
+.foodCard__food-title {
+    color: #323142;
+    font-family: 'Poppins';
+    font-size: 23.05px;
+    font-weight: 600;
+    line-height: calc(37.46 / 23.05);
+    max-height: 115px;
+    overflow: hidden;
+}
+.foodCard__food-description {
+    display: flex;
+    gap: 10px;
+}
+.foodCard__addCart {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+.foodCard__addCart-price {
+    font-family: 'Manrope';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: calc(40.34 / 25);
+    color: #323142;
+}
+.foodCard__addCart-price span {
+    font-size: 18.81px;
+    color: #8e97a6;
+}
+.foodCard__addCart-plus {
+    display: flex;
+    border-radius: 8.93px;
+    background: #323142;
+    width: 44px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.dish__bullet--active {
+    background: var(--link-accent-color);
+    opacity: 1;
+
+    transition: var(--transition)
+}

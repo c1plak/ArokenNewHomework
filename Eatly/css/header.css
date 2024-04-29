@@ -1,0 +1,128 @@
+/* ==============Header================ */
+.header {
+    padding-top: 50px;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Inter";
+    color: var(--link-color);
+    font-weight: 500;
+    border-bottom: 1px solid var(--division-color);
+    padding-bottom: 24px;
+}
+.navbar {
+    display: flex;
+    gap: 103px;
+    align-items: center;
+    flex-grow: 1;
+    z-index: 2;
+}
+
+.navbar .authorization {
+    display: none;
+}
+
+.logo {
+    margin-right: 103px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.logo span {
+    color: var(--accent-color);
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.logo__img {
+    max-width: 100%;
+}
+.navbar__list {
+    display: flex;
+    gap: 53px;
+}
+.navbar__link {
+    padding: 15px 0;
+    transition: var(--transition);
+}
+.navbar__link:hover {
+    color: var(--link-accent-color);
+}
+.authorization {
+    display: flex;
+    font-weight: bold;
+}
+.authorization__logIn {
+    margin-right: 36px;
+    align-self: center;
+    padding: 15px 0;
+}
+
+.burger {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+.burger span {
+    display: block;
+    position: relative;
+    height: 2px;
+    width: 30px;
+    background: var(--link-color);
+}
+.burger span::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background: var(--link-color);
+    top: 10px;
+    transform: rotate(0deg);
+    transition: var(--transition);
+}
+.burger span::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 30px;
+    background: var(--link-color);
+    top: -10px;
+    transform: rotate(0deg);
+    transition: var(--transition);
+}
+
+.body--burger-opened .navbar {
+    transform: none;
+}
+
+.body--burger-opened .burger {
+    z-index: 2;
+    transition: var(--transition);
+}
+
+.body--burger-opened .burger span {
+    background: transparent;
+    transition: var(--transition);
+}
+
+.body--burger-opened .burger span::after,
+.body--burger-opened .burger span::before {
+    top: 0;
+    transition: var(--transition);
+}
+
+.body--burger-opened .burger span::after {
+    transform: rotate(45deg);
+}
+
+.body--burger-opened .burger span::before {
+    transform: rotate(-45deg);
+}

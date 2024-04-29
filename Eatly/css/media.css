@@ -1,0 +1,905 @@
+/* ===============Media================ */
+/* ===============Media================ */
+/* ===============Media================ */
+/* =============Tablet============= */
+@media (max-width: 1100px) {
+    /* =============Header============= */
+        .navbar__list {
+            gap: 38px;
+        }
+    
+    /* =============Modal============= */
+        .modal__close {
+            color: #000000
+        }
+    
+        .modal__content {
+            padding: 32px 25px 48px;
+        }
+    
+        .modal__logo {
+            margin-bottom: 40px;
+        }
+    
+        .modal__content-footer {
+            justify-content: space-around;
+            padding-top: 96px;
+        }
+    
+        .modal__decor {
+            display: none;
+        }
+    
+    /* =============Hero============= */
+        .hero__inner {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .hero__title {
+            font-size: 53.33px;
+            margin-bottom: 11px;
+        }
+        .hero__text {
+            text-align: center;
+        }
+        .hero__card-content {
+            text-align: start;
+        }
+        .hero__rating-trustpilot {
+            justify-content: center;
+            padding-top: 23px;
+        }
+        .hero__order-card {
+            width: 76.5%;
+        }
+        .hero__order-card::after {
+            margin-left: 94%;
+        }
+        .hero__buttons {
+            justify-content: center;
+            padding-top: 37px;
+        }
+        .hero__dish {
+            margin: 0 10%;
+        }
+    
+    /* =============Application============= */
+        .application__inner {
+            flex-direction: column-reverse;
+            margin-bottom: 71px;
+        }
+    
+        .application__content-title {
+            text-align: center;
+        }
+    
+        .application__button {
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+    
+        .application__inner {
+            padding: 0 0px 85px 0px;
+        }
+    
+        .application__button::after {
+            bottom: -110%;
+            right: 82%;
+            transform: rotate(124deg);
+            content: '';
+            background: url(../img/decor/Arrow2.svg) center no-repeat;
+        }
+    
+        .application__img::before {
+            transform: scale(1, 1) rotate(105deg);
+            position: absolute;
+            bottom: 0;
+            top: -14%;
+            width: 169px;
+            height: 60px;
+            right: 67%;
+            content: '';
+        }
+    
+    /* =============Restaurants============= */
+        .restaurants__list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .card__content {
+            padding: 10.93px 19px 18px 24px;
+        }
+    
+    /* =============Purchases-cards============= */
+        .purchases__title {
+            font-size: 36.21193313598633px;
+            max-width: 398px;
+        }
+    
+    /* =============Testimonials============= */
+        .testimonials__title {
+            font-size: 32px;
+        }
+        .testimonials__slide {
+            max-width: 37.9%;
+            padding: 27px 30px;
+        }
+        .testimonials__slide-user {
+            gap: 15px;
+            margin-bottom: 22.73px;
+        }
+        .testimonials__slide-photo {
+            height: 50px;
+            width: 50px;
+        }
+        .testimonials__slide-user-name {
+            font-size: 14.86px;
+        }
+        .testimonials__slide-user-date {
+            font-size: 11.89px;
+        }
+        .testimonials__slide-quote-img {
+            width: 41.73px;
+            height: 31.47px;
+        }
+        .testimonials__slide-quote-img img {
+            width: 100%;
+        }
+        .testimonials__slide-quote {
+            font-size: 12.8px;
+        }
+        .testimonials__slide-rating {
+            width: 98.13px;
+            height: 16.36px;
+        }
+        .testimonials__slide-rating img {
+            width: 16px;
+            height: 16px;
+        }
+        .testimonials__swiper .testimonials__swiper-scrollbar {
+            max-width: 57.9%;
+            height: 7.82px;
+        }
+    }
+    
+    @media (max-width: 950px) {
+    
+        /* =============Purchases-cards============= */
+        .purchases__cards-list {
+            max-width: 245px;
+        }
+        .purchases__cards-item {
+            max-height: 63px;
+            padding: 3px 12px;
+        }
+        .purchases__order-img {
+            height: auto;
+            width: 83px;
+        }
+    
+        .purchases__order-img img {
+            width: 100%;
+        }
+        .purchases__order-title {
+            font-size: 13.56px;
+        }
+        .purchases__order-status {
+            font-size: 8.56px;
+        }
+        .purchases__order-time {
+            font-size: 9.28px;
+        }
+    
+        /* =============Dashboard============= */
+    
+        .purchases__dashboard {
+            max-width: 380px;
+            padding: 26.8px;
+        }
+        .purchases__dashboard-top {
+            margin-bottom: 27px;
+        }
+        .purchases__dashboard-title {
+            font-size: 20.1px;
+        }
+        .dropmenu {
+            font-size: 13.4px;
+        }
+        .purchases__dashboard-item {
+            padding: 18px;
+        }
+        .purchases__dashboard-item-img {
+            width: 35px;
+            height: 35px;
+            margin-right: 13px;
+        }
+        .purchases__dashboard-item-img img {
+            width: 18px;
+        }
+        .purchases__dashboard-cards-title {
+            font-size: 13.4px;
+        }
+        .purchases__dashboard-cards-subtitle {
+            font-size: 11.17px;
+        }
+        .purchases__dashboard-item-price {
+            font-size: 15.64px;
+        }
+        .purchases__dashboard-item-bar {
+            height: 6.7px;
+        }
+        .purchases__dashboard-item-bar::before {
+            height: 6.7px;
+        }
+    
+    /* =============Discount============= */
+        .discount__content {
+            padding: 26px 51px 43px 47px;
+            max-height: 199.11px;;
+        }
+        .discount__form {
+            max-width: 312px;
+        }
+        .discount__form-title {
+            font-size: 49.78px;
+        }
+        .discount__email-field--large,
+        .discount__email-field--small {
+            font-size: 11.57px;
+            padding: 15.5px 33% 15.5px 15.5px;
+            max-height: 48px;
+            letter-spacing: 0;
+        }
+        .discount__form-label {
+            display: none;
+        }
+        .discount__form-label--small {
+            display: block;
+        }
+        .discount__form-button {
+            max-width: 94px;
+            padding: 11px 17px;
+            max-height: 38px;
+            font-size: 10.49px;
+            border-radius: 8px;
+            top: 7%;
+        }
+        .discount__img {
+            width: 195px;
+        }
+    }
+    
+    @media (max-width: 850px) {
+    /* =============Header============= */
+        .header {
+            padding-top: 33px;
+        }
+    
+        .burger {
+            display: flex;
+        }
+    
+        .authorization {
+            margin-right: 30px;
+        }
+    
+        .navbar {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            min-width: 60%;
+            transform: translateX(112%);
+            transition: var(--transition);
+            align-items: start;
+            justify-content: left;
+            padding: 125px 30px 0 30px;
+            background: #ffffff;
+            font-size: 25px;
+        }
+    
+        .navbar__list {
+            flex-direction: column;
+            gap: 25px;
+        }
+    
+        .navbar__logo {
+            flex-grow: 1;
+            margin-right: 0;
+        }
+    
+    /* =============Statistic============= */
+        .stat__value {
+            font-size: 43px;
+            line-height: calc(54 / 43);
+        }
+        
+        .stat__description {
+            font-size: 14px;
+            line-height: calc(21 / 14);
+        }
+    
+    /* =============Footer============= */
+    
+        .footer__nav-list {
+            display: flex;
+            gap: 30px;
+            font-weight: 500;
+            line-height: calc(26 / 17);
+        }
+    
+    /* =============Restaurants============= */
+        .restaurants__list {
+            grid-template-columns: repeat(1, 1.36fr);
+        }
+    /* =============Purchases============= */
+        .purchases__title {
+            font-size: 3.6vw;
+        }
+    
+        .purchases__inner {
+            margin-bottom: 90px;
+        }
+        
+    
+    
+    /* =============FAQ============= */
+        .FAQ__title {
+            font-size: 32px;
+            margin: 0 auto 81px;
+        }
+        .FAQ__title::after {
+            background-size: contain;
+            width: 29px;
+            height: 27px;
+            right: 6%;
+            top: -42%;
+        }
+        .FAQ-accordion__item {
+            padding: 0 13px 10px;
+            margin-bottom: 20.45px;
+        }
+        .FAQ-accordion__item-title {
+            font-size: 16.65px;
+        }
+        .FAQ-accordion__item-img {
+            width: 21.52px;
+            height: 21.52px;
+        }
+        .FAQ-accordion__item-img svg {
+            width: 8px;
+            height: 8px;
+        }
+        .FAQ-accordion__item--opened .FAQ-accordion__item-content {
+            margin-top: 13.56px;
+        }
+        .FAQ-accordion__item-content-inner {
+            margin-bottom: 19.91px;
+        }
+        .FAQ-accordion__item-content-inner p {
+            font-size: 14.22px;
+        }
+    /* =============Testimonials============= */
+        .testimonials {
+            margin-bottom: 80px;
+        }
+        .testimonials__title {
+            font-size: 30px;
+            line-height: 1.2;
+            margin-bottom: 55px;
+        }
+        .testimonials__swiper {
+            overflow: hidden;
+        }
+        .testimonials__swiper-wrapper {
+            margin-bottom: 45px;
+        }
+        .testimonials__slide {
+            max-width: 375px;
+        }
+        .testimonials__swiper .testimonials__swiper-scrollbar {
+            margin: 0 auto;
+            max-width: 100%;
+            height: 4.95px;
+        }
+    }
+    
+    @media (max-width: 800px) {
+        
+        
+    }
+    @media (max-width: 700px) {
+        .discount__content {
+            padding: 35px 27px 95px;
+            max-height: 263px;
+        }
+        .discount__form {
+            text-align: center;
+            margin: 0 auto;
+        }
+        .discount__img {
+            position: static;
+            margin: 0 auto;
+        }
+    }
+    @media (max-width: 650px) {
+    /* =============Statistic============= */
+        .stat {
+            margin-bottom: 67px;
+        }
+        .stat__inner {
+            flex-direction: column;
+            padding: 99px 0px 82.6px;
+        }
+    
+        .stat__column {
+            padding: 60px 10px;
+            border-right: none;
+            border-bottom: 1px solid #c4c4c426;
+        }
+    
+        .stat__column:last-child {
+            border-bottom: none;
+        }
+    
+        .stat__decor-svg:first-child {
+            top: -47%;
+            transform: rotate(98deg);
+        }
+    
+        .stat__decor-svg:last-child {
+            top: 65.5%;
+            right: -36.5%;
+            transform: rotate(357deg);
+        }
+    
+    /* =============Application============= */
+        .application__inner {
+            padding: 0 0px 66px 0px;
+        }
+        .application__content-title {
+            margin-bottom: 37px;
+        }
+    
+        .application__content-text {
+            margin-bottom: 16px;
+        }
+        .application__content-list {
+            margin-bottom: 35px;
+        }
+    
+    /* =============Restaurants============= */
+        .restaurants__title {
+            margin: 0 auto 60px;
+            max-width: 281px;
+        }
+    
+        .restaurants__inner {
+            padding-bottom: 66px;
+            margin-bottom: 85px;
+        }
+    
+    /* =============Dishes============= */
+        .dishes__title {
+            font-size: 32px;
+        }
+    
+        .dishes__inner {
+            padding-bottom: 66px;
+            margin-bottom: 85px;
+        }
+    /* =============Purchases============= */
+        .purchases__inner {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .purchases__title {
+            font-size: 30px;
+            max-width: 314px;
+        }
+    
+        .purchases__content {
+            position: relative;
+        }
+    
+        .purchases__cards-item:last-child::before {
+            position: absolute;
+            bottom: 8%;
+            left: 22%;
+            transform: scale(0.7) scaleX(1) rotate(267deg);
+            width: 450px;
+            height: 150px;
+            content: '';
+            background: url(../img/decor/Arrow2.svg) no-repeat;
+        }
+        .purchases__dashboard::before {
+            filter: blur(72.54px);
+        }
+        
+    /* =============Footer============= */
+        .footer__top {
+            flex-direction: row;
+            align-items: start;
+            gap: 57px 15px;
+            padding-left: 0;
+        }
+    
+        .footer__nav-list {
+            flex-direction: column;
+        }
+    
+        .footer__img-wrapper {
+            width: 40px;
+        }
+    
+        .footer__logo span {
+            font-size: 21px;
+        }
+    
+        .footer__bottom {
+            justify-content: center;
+        }
+    
+        .footer__bottom .socials {
+            display: none;
+        }
+    
+        .footer__top .socials {
+            display: flex;
+            justify-content: flex-end;
+        }
+    
+        .socials__list {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+    
+        .footer__top>.footer__column {
+            align-items: flex-start;
+            gap: 57px;
+            flex-direction: column;
+        }
+    
+        .footer__top .footer__column:last-child {
+            display: block;
+            padding-top: 2.8%;
+        }
+    
+    }
+    @media (max-width: 550px) {
+        .hero__graph-img::after {
+            margin-top: 90%;
+        }
+    }
+    
+    @media (max-width: 500px) {
+    /* =============Header============= */
+        .navbar__logo {
+            flex-grow: 0;
+        }
+        .hero {
+            padding-top: 57px;
+            margin-bottom: 85px;
+        }
+        .authorization {
+            display: none;
+        }
+    
+        .navbar .authorization {
+            display: flex;
+        }
+        
+    /* =============Modal============= */
+        .modal__content-footer {
+            font-size: 13px;
+        }
+    
+        .modal__form-title {
+            font-size: 28px;
+            margin-bottom: 38px;
+        }
+    
+        .modal__auth-type {
+            margin-bottom: 27px;
+            gap: 17px;
+        }
+    
+        .modal__form-choise {
+            font-size: 16px;
+            margin-bottom: 29px;
+        }
+    
+        .modal__content-footer {
+            flex-direction: column;
+            padding-top: 50px;
+        }
+    
+        .modal__hint {
+            font-size: 15px;
+        }
+    
+        .name-field,
+        .email-field,
+        .password-field {
+            margin-bottom: 20px;
+            height: 60px;
+            padding: 20px 20px 20px 79px;
+        }
+    
+        .password-field {
+            margin-bottom: 31px;
+        }
+    
+        .modal__form {
+            margin-bottom: 18px;
+        }
+    
+    /* =============Restaurants============= */
+        .card__restaurant-title {
+            font-size: 20px;
+        }
+    
+        .card__restaurant-favor {
+            width: 30px;
+            height: 30px;
+        }
+    
+        .card__restaurant-favor svg {
+            max-width: 10px;
+            max-height: 14px;
+        }
+    
+    /* =============FAQ============= */
+        .FAQ {
+            margin-bottom: 70px;
+        }
+        .FAQ__inner {
+            padding-bottom: 100px;
+        }
+        .FAQ__title {
+            font-size: 23.64px;
+            max-width: 215px;
+            margin: 0 auto 67px;
+        }
+        .FAQ__title::after {
+            width: 21px;
+            height: 20px;
+            right: -9%;
+            top: -28%;
+        }
+        .FAQ-accordion__item {
+            margin-bottom: 15.69px;
+            padding-bottom: 7.31px;
+        }
+        .FAQ-accordion__item-title {
+            font-size: 12.3px;
+        }
+        .FAQ-accordion__item-img {
+            width: 15.82px;
+            height: 15.82px;
+        }
+        .FAQ-accordion__item-img svg {
+            width: 5.57px;
+            height: 5.57px;
+        }
+    
+        .FAQ-accordion__item-content-inner {
+            margin-bottom: 33px;
+        }
+    
+        .FAQ-accordion__item-content-inner p {
+            font-size: 11px;
+        }
+    
+        
+    /* =============Testimonials============= */
+        .testimonials__slide {
+            max-width: 100%;
+            padding: 22.6px 25.6px;
+            margin-bottom: 19.04px;
+        }
+        .testimonials__slide-user {
+            gap: 12px;
+        }
+        .testimonials__slide-photo {
+            width: 42px;
+            height: 42px;
+        }
+        .testimonials__slide-user-name {
+            font-size: 12.45px;
+        }
+        .testimonials__slide-user-date {
+            font-size: 9.96px;
+        }
+        .testimonials__slide-quote-img {
+            width: 35px;
+            height: 26px;
+        }
+        .testimonials__slide-quote {
+            font-size: 10.72px;
+            margin-bottom: 22.8px;
+        }
+        .testimonials__slide-rating {
+            width: 82.22px;
+            height: 13.7px;
+            gap: 3.7px;
+        }
+        .testimonials__slide-rating img {
+            width: 13.7px;
+            height: 13.7px;
+        }
+        /* =============Discount============= */
+        .discount {
+            margin-bottom: 198px;
+        }
+        /* =============Footer============= */
+        .footer__bottom {
+            padding: 26px 0 36px 0;
+        }
+        .footer__top {
+            padding: 55px 0 32px 0;
+        }
+    }
+    
+    @media (max-width: 450px) {
+        /* =============Hero============= */
+        .hero__inner {
+            gap: 102px 0;
+        }
+        .hero__order-card {
+            padding: 0px 9px;
+            height: 59px;
+        }
+        .hero__order-title {
+            font-size: 12.4px;
+            margin-bottom: 0px;
+        }
+        .hero__order-status {
+            font-size: 8.84px;
+        }
+    
+        .hero__order-time {
+            font-size: 9.66px;
+        }
+        .hero__order-img {
+            max-width: 49px;
+            height: 49px;
+        }
+        /* =============Dishes============= */
+        .dishes__title {
+            margin: 0 auto 61px;
+            max-width: 127px;
+        }
+        /* =============Purchases============= */
+        .purchases__title {
+            font-size: 30px;
+        }
+        .purchases__cards-list {
+            max-width: 228px;
+        }
+        .purchases__cards-item {
+            padding: 3px 11px;
+        }
+        .purchases__order-img {
+            width: 72px;
+            margin-right: 13px;
+        }
+        .purchases__order-title {
+            font-size: 12.59px;
+        }
+        .purchases__order-status {
+            font-size: 7.95px;
+        }
+        .purchases__order-time {
+            font-size: 8.62px;
+        }
+        .purchases__dashboard {
+            padding: 22px 22px 27px;
+        }
+        .purchases__dashboard-top {
+            margin-bottom: 22px;
+        }
+        .purchases__dashboard-title {
+            font-size: 16.75px;
+        }
+        .dropmenu {
+            font-size: 11.16px;
+            max-width: 104px;
+            padding: 7px 10px;
+            letter-spacing: 0.37px;
+        }
+        .purchases__dashboard-item {
+            padding: 15px;
+        }
+        .purchases__dashboard-item-content {
+            margin-bottom: 12px;
+        }
+        .purchases__dashboard-item-img {
+            width: 30px;
+            height: 30px;
+        }
+        .purchases__dashboard-item-img img {
+            height: 15px;
+            width: 15px;
+        }
+        .purchases__dashboard-cards-title {
+            font-size: 11.16px;
+        }
+        .purchases__dashboard-cards-subtitle {
+            font-size: 9.3px;
+        }
+        .purchases__dashboard-item-price {
+            font-size: 13.03px;
+        }
+        .purchases__dashboard-item-bar {
+            height: 5.58px;
+        }
+        .purchases__dashboard-item-bar::before {
+            height: 5.58px;
+        }
+    
+        /* =============Discount============= */
+        .discount__form-title {
+            margin-bottom: 15px;
+        }
+        .discount__email-field--large {
+            display: none;
+        }
+        .discount__email-field--small {
+            display: block;
+            padding: 7.5px 50% 7px 14.5px;
+            font-size: 10.58px;
+        }
+        .discount__form-button {
+            padding: 10px 15px;
+            font-size: 9.59px;
+            top: 13%;
+            max-height: 35px;
+        }
+        .discount__img {
+            width: 170px;
+        }
+    }
+    
+    @media (max-width: 350px) {
+    /* =============Header============= */
+        .navbar .authorization {
+            flex-direction: column;
+        }
+        .navbar .authorization__logIn {
+            align-self: flex-start;
+        }
+    /* =============Hero============= */
+        .hero__order-img {
+            margin-right: 3.91px;
+        }
+    /* =============Modal============= */
+        .modal__form-title {
+            font-size: 27px;
+        }
+    
+        .modal__hint {
+            font-size: 13px;
+        }
+    
+    /* =============Restaurants============= */
+        .restaurants__title {
+            font-size: 39px;
+        }
+        .restaurants__title span {
+            word-wrap: break-word;
+        }
+    
+    /* =============Discount============= */
+        .discount__form-title {
+            font-size: 45px;
+        }
+    
+    /* =============Footer============= */
+        .footer__copyright {
+            font-size: 14px;
+        }
+    }

@@ -1,0 +1,80 @@
+:root {
+    --division-color: #cbcbcb;
+    --link-color: #606060;
+    --accent-color: #6c5fbc;
+    --transition: all .5s;
+    --link-accent-color: #5C4EAE;
+    --general-bg: #F9F9F9;
+    --shadow: 12.64px 16.85px 33.7px 0px #1a202c26;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+
+body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    line-height: 1.5;
+    background: var(--general-bg);
+}
+
+.body--burger-opened {
+    overflow: hidden;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1312px;
+    margin: 0 auto;
+    padding: 0 31px;
+    height: 100%;
+}
+
+.button {
+    color: var(--general-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 26px;
+    border: 1px solid var(--accent-color);
+    background: var(--accent-color);
+    border-radius: 18px;
+    width: 100%;
+    transition: var(--transition);
+}
+.button--transparent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 26px;
+    border: 1px solid var(--accent-color);
+    border-radius: 18px;
+    width: 100%;
+    transition: var(--transition);
+    color: var(--accent-color);
+    background: var(--general-bg);
+}
+.button--transparent:hover {
+    color: var(--general-bg);
+    background: var(--accent-color);
+}
+.button:hover {
+    color: var(--accent-color);
+    background: var(--general-bg);
+    cursor: pointer;
+}
+

@@ -1,0 +1,64 @@
+/* =============Discount============= */
+.discount {
+    margin-bottom: 216px;
+}
+.discount__content {
+    position: relative;
+    background: var(--link-accent-color) url(../img/decor/bg-discount.png) center center no-repeat;
+    border-radius: 30px;
+    padding: 37px 61px 68.8px;
+    max-height: 280px;
+}
+.discount__form-title {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 70px;
+    font-weight: 800;
+    line-height: calc(105 / 70);
+}
+.discount__form {
+    opacity: .8;
+    max-width: 452px;
+}
+.discount__form-label {
+    position: relative;
+}
+.discount__email-field--large,
+.discount__email-field--small {
+    padding: 7.5px 32% 7.5px 22.5px;
+    box-shadow: 0px 7.25px 45.33px 0px #0000001a;
+    background: #ffffff;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    max-height: 68px;
+}
+.discount__form-label--small {
+    display: none;
+}
+
+.discount__form-button {
+    background: var(--accent-color);
+    position: absolute;
+    right: 1.6%;
+    top: 8.3%;
+    max-width: 136px;
+    max-height: 53.44px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-size: 14.75px;
+    font-weight: 500;
+    line-height: calc(22 / 14.75);
+}
+
+.discount__img {
+    position: absolute;
+    right: 7.5%;
+    bottom: -21%;
+    max-width: 281.7px;
+    width: 100%;
+}
+.discount__img img {
+    width: 100%;
+}

@@ -1,0 +1,190 @@
+/* =============Purchases============= */
+.purchases__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px 15px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid var(--division-color);
+    margin-bottom: 116px;
+}
+.purchases__content {
+    max-width: 570px;
+}
+
+.purchases__title {
+    font-family: 'Poppins';
+    font-size: 50.92px;
+    font-weight: 700;
+    line-height: calc(58.2 / 50.92);
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    max-width: 487px;
+}
+.purchases__title span {
+    color: var(--accent-color);
+}
+.purchases__cards-list {
+    max-width: 345px;
+}
+.purchases__cards-item {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.purchases__cards-item:last-child {
+    margin-bottom: none;
+}
+.purchases__order-img {
+    height: auto;
+}
+.modal__order-title {
+    padding-bottom: 4px;
+}
+.modal__order-status {
+    font-size: 500;
+}
+.purchases__dashboard {
+    position: relative;
+    padding: 37px 37px 45px;
+    max-width: 534px;
+    width: 100%;
+    border: 1.57px solid #edf2f7;
+    border-radius: 25.13px;
+    background: #ffffff;
+}
+.purchases__dashboard::before {
+    content: '';
+    position: absolute;
+    bottom: -5%;
+    left: 7%;
+    border-radius: 9.44px;
+    filter: blur(86.54px);
+    background: rgb(50, 49, 66);
+    opacity: 0.2;
+    width: 331px;
+    height: 255px;
+    z-index: -1;
+}
+.purchases__dashboard-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    align-items: center;
+}
+.purchases__dashboard-title {
+    color: #1a202c;
+    font-family: 'Manrope';
+    font-size: 28.27px;
+    font-weight: 800;
+    line-height: 1.35;
+    letter-spacing: 0.31px;
+}
+.dropmenu {
+    border-radius: 12.56px;
+    background: #fafafa;
+    padding: 12.56px 18.85px 12.56px 18.85px;
+    color: #1a202c;
+    font-family: 'Manrope';
+    font-size: 18.85px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.63px;
+}
+.dropmenu option {
+    text-transform: capitalize;
+    border-radius: 50%;
+    color: #1a202c;
+    font-family: 'Manrope';
+    font-size: 18.85px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.63px;
+}
+.purchases__dashboard-item {
+    padding: 25px;
+    border: 1.57px solid #edf2f7;
+    border-radius: 18.85px;
+    margin-bottom: 22px;
+}
+.purchases__dashboard-item:last-child {
+    margin-bottom: 0;
+}
+.purchases__dashboard-item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Manrope';
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.purchases__dashboard-item--purple .purchases__dashboard-item-img{
+    background: #f4f0ff;
+}
+
+.purchases__dashboard-item--orange .purchases__dashboard-item-img{
+    background: #f2fdf6;
+}
+.purchases__dashboard-item-img {
+    margin-right: 18.85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 1570.59px;
+    flex-shrink: 0;
+}
+.purchase__dashboard-item-naming {
+    flex-grow: 1;
+    letter-spacing: 0.63px;
+}
+.purchases__dashboard-cards-title {
+    color: #1a202c;
+    font-size: 18.85px;
+    font-weight: 800;
+    letter-spacing: 0.63px;
+}
+.purchases__dashboard-cards-subtitle {
+    display: block;
+    color: #a0aec0;
+    font-size: 15.71px;
+    font-weight: 500;
+}
+.purchases__dashboard-item-price {
+    color: rgb(26, 32, 44);
+    font-size: 21.99px;
+    font-weight: 800;
+    letter-spacing: 0.31px;
+}
+
+.purchases__dashboard-item-bar {
+    position: relative;
+    height: 9px;
+    border-radius: 78.53px;
+}
+
+.purchases__dashboard-item-bar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 75%;
+    height: 9px;
+    border-radius: 78.53px;
+}
+.purchases__dashboard-item:nth-child(2) .purchases__dashboard-item-bar::before {
+    width: 60%;
+}
+
+.purchases__dashboard-item--purple .purchases__dashboard-item-bar {
+    background: #6b5fbc2c
+}
+.purchases__dashboard-item--purple .purchases__dashboard-item-bar::before {
+    background: var(--accent-color);
+}
+
+.purchases__dashboard-item--orange .purchases__dashboard-item-bar {
+    background: #fbac1833
+}
+.purchases__dashboard-item--orange .purchases__dashboard-item-bar::before {
+    background: #fbad18;
+}

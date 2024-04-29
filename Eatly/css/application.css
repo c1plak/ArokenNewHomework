@@ -1,0 +1,101 @@
+/* =============Application============= */
+.application {
+    font-family: 'Inter';
+}
+.application__inner {
+    display: flex;
+    gap: 110px 90px;
+    align-items: center;
+    padding: 0 0px 85px 111px;
+    justify-content: space-between;
+    border-bottom: 0.71px solid var(--division-color);
+    margin-bottom: 100px;
+}
+.application__img {
+    position: relative;
+    max-width: 364px;
+    padding: 0 30px;
+    width: 100%;
+}
+.application__img img {
+    width: 100%;
+}
+.application__content {
+    max-width: 546px;
+}
+.application__content-title {
+    font-family: 'Poppins';
+    font-size: 50.92px;
+    font-weight: 700;
+    line-height: calc(58.2 / 50.92);
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 63px;
+}
+.application__content-list {
+    list-style: disc;
+    margin-bottom: 66px;
+    padding-left: 32px;
+}
+.application__content-text {
+    color: #676767;
+    font-size: 20.33px;
+    font-weight: 400;
+    line-height: calc(30.5 / 20.33);
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.application__content-title span {
+    color: var(--accent-color);
+}
+
+.application__content-text:last-child {
+    margin-bottom: 0;
+}
+.application__button {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    max-width: 186px;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 18.06px;
+    font-weight: 500;
+    line-height: calc(22.58 / 18);
+}
+
+.application__img::before {
+    transform: scale(-1, 1) rotate(14deg);
+    position: absolute;
+    pointer-events: none;
+    bottom: -3%;
+    width: 169px;
+    height: 60px;
+    right: -44%;
+    content: '';
+    background: url(../img/decor/Arrow2.svg) center no-repeat;
+}
+
+.application__button svg path {
+    transition: var(--transition);
+}
+
+.application__button:hover svg path {
+    stroke: var(--accent-color);
+}
+
+.application__button svg {
+    flex-shrink: 0;
+}
+
+.application__img::after {
+    position: absolute;
+    width: 38px;
+    height: 33px;
+    top: -1%;
+    right: -3%;
+    content: '';
+    background: url(../img/decor/mobileBlows1.svg) center no-repeat;
+    background-size: cover;
+}

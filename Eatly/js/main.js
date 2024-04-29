@@ -2,9 +2,12 @@
     //Модалка
     const signUp = document.querySelectorAll('.authorization__signUp');
     const login = document.querySelectorAll('.authorization__logIn')
+    const modal = document.querySelector('.modal');
     const modal__signUp = document.querySelector('.modal__signUp');
     const modal__logIn = document.querySelector('.modal__logIn');
+    const modal__reset = document.querySelector('.modal__reset');
     const body = document.querySelector('.body');
+    const forgetLink = document.querySelector('.forget-pass__link');
 
 
     login.forEach(el => {
@@ -23,6 +26,9 @@
         const target = e.target;
         if (target.classList.contains('modal__close') || target.classList.contains('modal__signUp')) {
             body.classList.remove('body--signUp-show');
+        } else if (target.classList.contains('signIn__link')) {
+            body.classList.remove('body--signUp-show');
+            body.classList.add('body--logIn-show');
         }
     })
 
@@ -30,6 +36,21 @@
         const target = e.target;
         if (target.classList.contains('modal__close') || target.classList.contains('modal__logIn')) {
             body.classList.remove('body--logIn-show');
+        } else if (target.classList.contains('signUp__link')) {
+            body.classList.remove('body--logIn-show');
+            body.classList.add('body--signUp-show');
+        }
+    })
+
+    forgetLink.addEventListener('click', () => {
+        body.classList.remove('body--logIn-show');
+        body.classList.add('body--reset-show');
+    })
+
+    modal__reset.addEventListener('click', (e) => {
+        const target = e.target;
+        if (target.classList.contains('modal__close') || target.classList.contains('modal__reset')) {
+            body.classList.remove('body--reset-show');
         }
     })
 

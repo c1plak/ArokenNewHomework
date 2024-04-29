@@ -1,0 +1,135 @@
+/* =============Restaurants============= */
+.restaurants {
+    font-family: 'Poppins';
+}
+
+.restaurants__inner {
+    /* display: flex;
+    flex-direction: column; */
+    padding-bottom: 120px;
+    margin-bottom: 105px;
+    border-bottom: 1px solid var(--division-color);
+}
+.restaurants__title {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.restaurants__title span {
+    color: var(--accent-color);
+}
+.restaurants__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 40px 21px;
+    margin-bottom: 65px;
+}
+.card {
+    overflow: hidden;
+    border-radius: 21.35px;
+    max-width: 396px;
+    width: 100%;
+    max-height: 298px;
+    height: 100%;
+    border: 1.25px solid #f4f4f6;
+    border-radius: 30.02px;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 5.95px 71.35px 35.67px 0px #e5e5e5b3;
+}
+.card__img {
+    overflow: hidden;
+    max-height: 176px;
+}
+
+.card__img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__content {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10.93px 26.73px 18px 34px;
+}
+.typeLabel--orange {
+    padding: 3px 8px 2px;
+    color: #daa31a;
+    font-family: 'Poppins';
+    font-size: 12.78px;
+    line-height: calc(19 / 12.78);
+    border-radius: 5.4px;
+    background: #f7edd0;
+}
+.typeLabel--red {
+    background: #f7c5ba;
+    color: #fb471d;
+    padding: 3px 8px 2px;
+    font-family: 'Poppins';
+    font-size: 12.78px;
+    line-height: calc(19 / 12.78);
+    border-radius: 5.4px;
+}
+.typeLabel--green {
+    background: #34ad6433;
+    color: #309d5b;
+    padding: 3px 8px 2px;
+    font-family: 'Poppins';
+    font-size: 12.78px;
+    line-height: calc(19 / 12.78);
+    border-radius: 5.4px;
+}
+.card__restaurant-title {
+    color: #323142;
+    font-family: 'Poppins';
+    font-size: 25.79px;
+    font-weight: 600;
+    line-height: calc(41.9 / 25.79);
+}
+.card__restaurant-description {
+    display: inline-flex;
+    color: #8e97a6;
+    font-family: 'Manrope';
+    font-size: 19.34px;
+    line-height: calc(25.79 / 19.34);
+}
+.card__restaurant-rating img {
+    width: 25px;
+    height: 26px;
+}
+.card__restaurant-favor {
+    display: inline-flex;
+    background: #dbd9ee;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.card__restaurant-favor svg {
+    max-width: 15px;
+    max-height: 19px;
+}
+
+.viewAll {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    align-self: end;
+    gap: 20px;
+    color: #acadb9;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: calc(45.18 / 20);
+    letter-spacing: -0.3px;
+    margin-left: auto;
+    max-width: 114px;
+}

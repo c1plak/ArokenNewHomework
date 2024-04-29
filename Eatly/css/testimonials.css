@@ -1,0 +1,109 @@
+/* =============Testimonials============= */
+.testimonials {
+    margin-bottom: 217px;
+}
+.testimonials__title {
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight: 600;
+    line-height: calc(25.56 / 45);
+    text-align: center;
+    margin-bottom: 80px;
+}
+.testimonials__title span {
+    color: var(--accent-color);
+}
+.testimonials__swiper {
+    /* position: relative; */
+    overflow: visible;
+}
+.testimonials__slide {
+    overflow: hidden;
+    max-width: 42.3%;
+    padding: 38px 43px;
+    border-radius: 20.89px;
+    background: #ffffff;
+    height: 100%;
+    margin-bottom: auto;
+}
+.swiper-slide-active .testimonials__slide-user {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    /* transform: translateY(0); */
+    transition: all .2s;
+}
+.testimonials__slide-user {
+    display: none;
+    position: relative;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    margin-bottom: 32px;
+    gap: 20px;
+    /* transform: translateY(-160%); */
+}
+.testimonials__slide-photo {
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.testimonials__slide-photo img {
+    height: 100%;
+}
+.testimonials__slide-user-info {
+    margin-right: auto;
+}
+.testimonials__slide-user-name {
+    color: #030314;
+    font-family: 'Poppins';
+    font-size: 20.89px;
+    font-weight: 500;
+    line-height: calc(31.34 / 20.89);
+}
+.testimonials__slide-user-date {
+    color: #5e5d5d;
+    font-family: 'Quicksand';
+    font-size: 16.71px;
+    font-weight: 500;
+    line-height: calc(26.12 / 16.71);
+}
+.testimonials__slide-quote-img {
+    width: 59px;
+    height: 44px;
+}
+.testimonials__slide-quote {
+    color: #969696;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-size: 18px;
+    line-height: calc(26.12 / 18);
+    text-align: justify;
+    margin-bottom: 39px;
+    transition: var(--transition);
+}
+
+.swiper-slide-active .testimonials__slide-quote {
+    color: #636363;
+}
+.testimonials__slide-rating {
+    display: flex;
+    gap: 5.75px;
+    width: 138px;
+    height: 23px;
+}
+.testimonials__swiper .testimonials__swiper-scrollbar {
+    position: static;
+    margin-left: auto;
+    border-radius: 50px;
+    background: #6b5fbc33;
+    max-width: 53.9%;
+    height: 11px;
+}
+
+.testimonials__swiper-scrollbar .swiper-scrollbar-drag {
+    border-radius: 50px;
+    background: var(--accent-color);
+}
